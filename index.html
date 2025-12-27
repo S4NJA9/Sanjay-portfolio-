@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SANJAY HIBARE Portfolio</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress"></div>
+
+  <nav class="navbar">
+    <!-- LEFT: Portfolio -->
+    <div class="nav-left">
+      <a href="#home" class="logo">
+        <i>&lt;/&gt;</i> Portfolio
+      </a>
+    </div>
+
+    <!-- MENU ICON (Mobile) -->
+    <div class="menu-toggle" onclick="toggleMenu()">
+      ☰
+    </div>
+
+    <!-- RIGHT: NAV LINKS -->
+    <div class="nav-right nav-links" id="navMenu">
+      <a href="#home" onclick="toggleMenu()">Home</a>
+      <a href="#about" onclick="toggleMenu()">About</a>
+      <a href="#objective" onclick="toggleMenu()">Career Objective</a>
+      <a href="#skills" onclick="toggleMenu()">Skills</a>
+      <a href="#portfolio" onclick="toggleMenu()">Portfolio</a>
+      <a href="#workshops" onclick="toggleMenu()">Workshops</a>
+    </div>
+  </nav>
+
+
+  <section id="home" class="hero">
+    <div id="particles-js"></div>
+    <div class="container">
+      <div class="hero-wrapper">
+        <div class="hero-image">
+          <img src="sanjay.jpg" alt="Sanjay Hibare" class="profile-photo" />
+        </div>
+        <div class="hero-content">
+          <h2>Hi, I'M</h2>
+          <h1>SANJAY HIBARE</h1>
+          <h3>I am an <span id="typed-text"></span></h3>
+          <a href="#about" class="btn">Discover More</a>
+          <a href=" add link" class="btn" target="_blank"> RESUME </a>
+
+        </div>
+      </div>
+    </div>
+    <div class="contact-bar">
+      <!-- Contact Info (Right Side) -->
+      <div class="contact-info">
+        <p><a href="mailto:sanjayhibare2004@gmail.com">sanjayhibare2004@gmail.com</a></p>
+        <p>+91 9930214648 | Navi Mumbai, Maharashtra</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Social Icons (Right Side) -->
+  <div class="social-icons animate__animated animate__fadeInRight">
+    <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+
+
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="animate__animated animate__fadeIn">About Me</h2>
+
+      <p class="animate__animated animate__fadeInUp" style="text-align: justify;">
+        <span style="font-size: 1.2em;">👋</span>
+        Hi, I’m <strong>Sanjay Hibare</strong>, a final-year B.Tech student in Electronics and Telecommunication
+        Engineering,
+        focused on <strong>Embedded Systems, Embedded Firmware Development, and IoT</strong>.
+      </p>
+      <p class="animate__animated animate__fadeInUp" style="text-align: justify;">
+        I'm continuously learning and improving in areas like <strong>Embedded Firmware Devloper </strong>,
+        and <strong>Embedded System Design</strong>, and I’m excited to contribute to
+        impactful tech solutions Outside of tech.
+      </p>
+
+      <p class="animate__animated animate__fadeInUp" style="text-align: justify;">
+        <strong>I'm currently seeking</strong> an entry-level role or internship in <strong>Embedded Firmware
+          Devloper</strong>, <strong>Embedded Systems</strong>,
+        <strong>IoT</strong> where I can apply my skills and grow with a dynamic team.
+      </p>
+    </div>
+  </section>
+  <!-- Career Objective Section -->
+  <section id="objective" class="objective">
+    <div class="container">
+      <h2 class="animate__animated animate__fadeIn">Career Objective</h2>
+      <p class="animate__animated animate__fadeInUp" style="text-align: justify;">
+        I am an <strong>Electronic and Telecommunication engineering </strong> student passionate about <strong>Firmware
+          Devloper, embedded
+          systems and IoT.</strong>
+        Seeking opportunities to apply practical and real-time development skills to innovative projects in the
+        industry. Focused on continuous learning and contributing as a skilled and collaborative professional.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Skills Section -->
+  <div class="section" id="skills">
+    <section class="skills-block-section">
+      <div class="container">
+        <h2 class="animate__animated animate__fadeIn">My Tech Skills</h2>
+        <div class="skills-block-grid">
+          <div class="skill-card animate__animated animate__fadeInUp">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+              alt="C++ Logo" class="skill-logo">
+            <span>C++</span>
+          </div>
+          <div class="skill-card animate__animated animate__fadeInUp">
+            <img src="https://www.pinclipart.com/picdir/big/396-3965857_c-c-programming-language-logo-clipart.png"
+              alt="C Logo" class="skill-logo">
+            <span> C</span>
+          </div>
+          <div class="skill-card animate__animated animate__fadeInUp">
+            <img src="https://lms.nielit.gov.in/pluginfile.php/4943/course/overviewfiles/Presentation2.png" alt="C Logo"
+              class="skill-logo">
+            <span>Embedded C</span>
+          </div>
+          <div class="skill-card animate__animated animate__fadeInUp">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo"
+              class="skill-logo">
+            <span>Python</span>
+          </div>
+          <div class="skill-card animate__animated animate__fadeInUp">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Logo"
+              class="skill-logo">
+            <span>Java</span>
+          </div>
+          <div class="skill-card animate__animated animate__fadeInUp">
+            <img src="https://www.svgrepo.com/show/339703/ai-explainability.svg" alt="ML Logo" class="skill-logo">
+            <span>ML</span>
+          </div>
+          <div class="skill-card animate__animated animate__fadeInUp">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB Logo"
+              class="skill-logo">
+            <span>MATLAB</span>
+          </div>
+          <div class="skill-card animate__animated animate__fadeInUp">
+            <img src="https://www.svgrepo.com/show/450190/iot-connection.svg" alt="IoT Logo" class="skill-logo">
+            <span>IoT</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container">
+      <h2 class="animate__animated animate__fadeIn">Portfolio</h2>
+      <div class="tabs animate__animated animate__fadeInUp">
+        <button class="tab-btn active" data-tab="education">Education</button>
+        <button class="tab-btn" data-tab="projects">Projects</button>
+        <button class="tab-btn" data-tab="activities">Activities</button>
+        <button class="tab-btn" data-tab="internship">Internship</button>
+        <button class="tab-btn" data-tab="certifications">Certifications</button>
+        <button class="tab-btn" data-tab="resume">Resume</button>
+      </div>
+
+      <!-- Education -->
+      <div id="education" class="tab-content active animate__animated animate__fadeIn">
+        <div class="project">
+          <h3>N. K. Orchid College of Engineering and Technology</h3>
+          <p>B.Tech - Electronics and Telecommunication Engineering (2025-Ongoing)</p>
+
+        </div>
+        <div class="project">
+          <h3>DBF Dayanand College Arts and Science, Solapur</h3>
+          <p>HSC</p>
+        </div>
+        <div class="project">
+          <h3>Siddheshwar Prashala, Solapur</h3>
+          <p>SSC</p>
+        </div>
+      </div>
+
+      <!-- Projects Section -->
+      <div id="projects" class="tab-content">
+        <div class="project animate__animated animate__fadeInUp">
+          <h3>🌾 ML-Based Crop Disease Detection & IoT Monitoring System</h3>
+          <p>Developed an intelligent system to detect crop diseases in real-time and monitor crop health remotely using
+            IoT.</p>
+          <p>✅ Implemented <strong>EfficientNetB7 algorithm</strong> for high-accuracy disease classification
+            (<strong>95% accuracy</strong>).</p>
+          <p>🔧 Integrated <strong>IoT sensors</strong> for environmental monitoring, including soil moisture,
+            temperature, and humidity.</p>
+          <p>⚙️ Automated alerts and recommendations for optimal crop management.</p>
+          <p>🌐 Enabled <strong>real-time monitoring</strong> via <strong>Arduino IoT Cloud</strong>.</p>
+          <p><strong>Technologies:</strong> Python, Embedded C, React.js, TensorFlow (Keras), Matplotlib, Pandas,
+            EfficientNetB7, ESP32, IoT Sensors, Arduino Cloud.</p>
+          <p><strong>Power Supply:</strong> Hybrid power system supporting both battery and solar energy.</p>
+          <div class="project-actions">
+            <a href="#" class="view-project-btn">View Project</a>
+            
+          </div>
+        </div>
+
+        <div class="project animate__animated animate__fadeInUp">
+          <h3>🍎 Pomegranate Disease Forecasting using ML</h3>
+          <p>Built a predictive system for pomegranate diseases using machine learning to forecast potential outbreaks
+            and improve yield.</p>
+          <p>✅ Utilized <strong>EfficientNetB7 algorithm</strong> achieving <strong>99.20% accuracy</strong> in disease
+            detection.</p>
+          <p>🔧 Collected and pre-processed extensive image datasets of pomegranate crops for model training.</p>
+          <p>⚙️ Enabled automated disease alerts and recommendations for preventive actions.</p>
+          <p>🌐 Integrated with <strong>IoT-based monitoring</strong> for real-time updates to farmers.</p>
+          <p><strong>Technologies:</strong> Python, TensorFlow (Keras), EfficientNetB7, Image Processing Libraries
+            (OpenCV, NumPy), Data Analysis (Pandas).</p>
+          <div class="project-actions">
+            <a href="#" class="view-project-btn">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 1 -->
+        <div class="project animate__animated animate__fadeInUp">
+          <h3>🗑️ IoT-Based Smart Waste Management System</h3>
+          <p>Developed a real-time, sensor-driven waste monitoring system to enhance urban waste collection efficiency
+            and automation.</p>
+          <p>✅ Designed a <strong>smart bin using ESP32</strong> for data processing and system control.</p>
+          <p>🔧 Integrated <strong>Ultrasonic and IR sensors</strong> for accurate waste level and presence detection.
+          </p>
+          <p>💧 Incorporated a <strong>Moisture Sensor</strong> for wet/dry waste classification.</p>
+          <p>⚙️ Automated lid operation via <strong>Servo Motor</strong> based on sensor input.</p>
+          <p>🌐 Enabled cloud-based <strong>real-time monitoring</strong> through <strong>Arduino IoT Cloud</strong>.
+          </p>
+          <p>🚨 Deployed <strong>LED indicators</strong> and <strong>Buzzer alerts</strong> for timely notifications.
+          </p>
+          <p><strong>Technologies:</strong> ESP32, Arduino Cloud, Ultrasonic Sensor, IR Sensor, Moisture Sensor, Servo
+            Motor, LEDs, Buzzer</p>
+          <div class="project-actions">
+            <a href="#" class="view-project-btn">View Project</a>
+          </div>
+
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="project animate__animated animate__fadeInUp">
+          <h3>🌾 AI & IoT-Based Smart Irrigation System for Crops</h3>
+          <p>Engineered an AI-powered irrigation system to optimize water usage by analyzing real-time sensor data and
+            weather conditions.</p>
+          <p>✅ Utilized <strong>ESP32</strong> to interface with field sensors and transmit data to the cloud.</p>
+          <p>💧 Employed <strong>Soil Moisture Sensor</strong> and <strong>DHT11</strong> for environmental monitoring.
+          </p>
+          <p>🌦️ Integrated external <strong>Weather APIs</strong> for predictive irrigation scheduling.</p>
+          <p>🌐 Used <strong>Firebase</strong> for real-time data logging and remote control.</p>
+          <p>💻 Developed an AI model in <strong>Python (Thonny IDE)</strong> to automate irrigation decisions.</p>
+          <p>🖥️ Built a web interface using <strong>Flask</strong> for intuitive control and monitoring.</p>
+          <p>📱 Integrated with <strong>Blynk</strong> for mobile access and notifications.</p>
+          <p><strong>Technologies:</strong> ESP32, Firebase, Python, Flask, Soil Moisture Sensor, DHT11, Weather APIs,
+            Blynk</p>
+          <div class="project-actions">
+            <a href="#" class="view-project-btn">View Project</a>
+          </div>
+
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project animate__animated animate__fadeInUp">
+          <h3>💡 IoT-Based Smart Street Light System</h3>
+          <p>Designed a motion-triggered lighting system to minimize energy usage by adjusting brightness based on human
+            activity.</p>
+          <p>✅ Built using <strong>ESP32</strong> for system control and connectivity.</p>
+          <p>🚶‍♂️ Integrated <strong>IR Sensors</strong> to detect motion and activate lights accordingly.</p>
+          <p>⚡ Enabled automatic brightness adjustment based on movement detection.</p>
+          <p>🌐 Provided real-time monitoring and remote control capabilities.</p>
+          <p><strong>Technologies:</strong> ESP32, IR Sensors, LED, Motion Control</p>
+          <div class="project-actions">
+            <a href="#" class="view-project-btn">View Project</a>
+          </div>
+
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project animate__animated animate__fadeInUp">
+          <h3>🧪 Virtual Lab for Digital Communication – Interactive Dashboard</h3>
+          <p>Created an interactive simulation platform to teach digital communication principles through real-time
+            signal processing experiments.</p>
+          <p>✅ Developed using <strong>Python</strong> and <strong>MATLAB</strong> for signal generation and modulation.
+          </p>
+          <p>🎛️ Simulated key modulation techniques like <strong>ASK, PSK, and FSK</strong>.</p>
+          <p>📊 Enabled real-time waveform visualization and parameter adjustment via GUI.</p>
+          <p>🎓 Designed to enhance learning outcomes in remote/hybrid classrooms.</p>
+          <p><strong>Technologies:</strong> Python, MATLAB, Tkinter/Streamlit, Signal Processing</p>
+          <div class="project-actions">
+            <a href="#" class="view-project-btn">View Project</a>
+          </div>
+
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project animate__animated animate__fadeInUp">
+          <h3>🌐 Personal Portfolio Website</h3>
+          <p>Built a responsive personal website to professionally present my skills, projects, and achievements.</p>
+          <p>✅ Developed with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> for
+            interactive design.</p>
+          <p>🎨 Used <strong>Flexbox</strong> and <strong>Grid</strong> for mobile-first responsiveness.</p>
+          <p>⚡ Integrated dynamic JavaScript components for a smooth UX.</p>
+          <p>📱 Fully optimized for performance and modern UI standards.</p>
+          <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Flexbox, Grid, UI/UX Design</p>
+
+          <div class="project-actions">
+            <a href="#" class="view-project-btn">View Project</a>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- Activities -->
+      <div id="activities" class="tab-content">
+        <div class="project animate__animated animate__fadeInUp">
+          <h3>Joint Secretary: Orchid Innovation Club (OIC)</h3>
+          <p>Mentored tech projects and coordinated events like hackathons and tech fests.</p>
+
+        </div>
+        <div class="project animate__animated animate__fadeInUp">
+          <h3>Vice President: IoT Club</h3>
+          <p>Led workshops and hands-on sessions in IoT domain, including Arduino and Raspberry Pi projects.</p>
+        </div>
+      </div>
+
+      <!-- Internship -->
+      <div id="internship" class="tab-content">
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>Giri’s Academy</h3>
+          <p>C Programming – Gained foundational knowledge, 1 week – 2025</p>
+        </div>
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>Eminence</h3>
+          <p>Campus to Corporate Internship – Communication, teamwork, and adaptability training, 1 week – 2023</p>
+        </div>
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>Industrial Robotics and Automation</h3>
+          <p>Hands-on training in automation technologies, 1 week – 2024</p>
+        </div>
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>Advanced Robotics & Automation</h3>
+          <p>Advanced systems integration and optimization, 1 week – 2024</p>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div id="certifications" class="tab-content">
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>NPTEL Certified</h3>
+          <p>Introduction to Internet of Things, Nov 2024</p>
+          <div class="certificate-links">
+            <a href="https://drive.google.com/file/d/1pchYlzYfUjU4uAkKmgceLX130xBdFpFK/view?usp=drive_link" target="_blank" class="view-button"><i class="fas fa-eye"></i> View</a>
+          </div>
+        </div>
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>NPTEL Certified</h3>
+          <p>Industry 4.0 Introduction to Internet of Things, Nov 2024</p>
+          <div class="certificate-links">
+            <a href="https://drive.google.com/file/d/1apyET1n0e4W1pNLGTF8qBw97FyYInV4d/view?usp=drive_link" target="_blank" class="view-button"><i class="fas fa-eye"></i> View</a>
+          </div>
+        </div>
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>PMS Certified</h3>
+          <p>Industrial Robotics and Automation, April 2024</p>
+          <div class="certificate-links">
+            <a href="https://drive.google.com/file/d/1WPhTInW2_BRwK00QAp4FufiAtQ16m6IT/view?usp=drive_link" target="_blank" class="view-button"><i class="fas fa-eye"></i> View</a>
+          </div>
+        </div>
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>PMS Certified</h3>
+          <p>Advanced Industrial Robotics and Automation, July 2024</p>
+          <div class="certificate-links">
+            <a href="https://drive.google.com/file/d/1ZnLSpSeylSF7JRMRy4UgB-xJyWcmUJK2/view?usp=drive_link" target="_blank" class="view-button"><i class="fas fa-eye"></i> View</a>
+          </div>
+        </div>
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>TCS ION Certified</h3>
+          <p>Communication Skills, Aug 2023</p>
+          <div class="certificate-links">
+            <a href="https://drive.google.com/file/d/1vmD-YCxF7L7EjU4JbyjQdsYNCbjdVh-o/view?usp=drive_link" target="_blank" class="view-button"><i class="fas fa-eye"></i> View</a>
+          </div>
+        </div>
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>DISHA Comp Institute</h3>
+          <p>Certificate Course in C/C++, June 2024</p>
+          <div class="certificate-links">
+            <a href="https://drive.google.com/file/d/1NfxkVbT5x0UvSWolyutMLDGoi1mgpTJ4/view?usp=drive_link" target="_blank" class="view-button"><i class="fas fa-eye"></i> View</a>
+          </div>
+        </div>
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>Aptech Certified</h3>
+          <p>Aptech Computer Education, May 2024</p>
+          <div class="certificate-links">
+            <a href="https://drive.google.com/file/d/1a4u7gQtr5c5UeAJvihY_4d8T39nwyPKN/view?usp=drive_link" target="_blank" class="view-button"><i class="fas fa-eye"></i> View</a>
+          </div>
+        </div>
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>Giri’s Tech Hub Pvt. Ltd. Certified</h3>
+          <p>C Programming Campus Recruitment Training, 03/03/2025 to 08/03/2025 at NKOCET, Solapur</p>
+          <div class="certificate-links">
+            <a href="https://drive.google.com/file/d/1kGz1AtNlyGlzQdmR5xsmFBOdxQfBVk9p/view?usp=drive_link" target="_blank" class="view-button"><i class="fas fa-eye"></i> View</a>
+          </div>
+        </div>
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>Python (Basic) – HackerRank Certified</h3>
+          <p>Successfully cleared the HackerRank Skill Certification Test in Python (Basic) on 06 March 2025,
+            demonstrating foundational proficiency in Python programming.</p>
+          <div class="certificate-links">
+            <a href="https://drive.google.com/file/d/1mTw7dcDiz-mxaC5Upir5GMTRpynzO30E/view?usp=drive_link" target="_blank" class="view-button"><i class="fas fa-eye"></i> View</a>
+          </div>
+        </div>
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>Udemy Certified</h3>
+          <p>Python Machine Learning: From Beginner to Pro from Learnify IT, April 6, 2025.</p>
+          <div class="certificate-links">
+            <a href="https://drive.google.com/file/d/16JyG3HlSLStPbEk3x75G5Qu5gEV_OzqH/view?usp=drive_link" target="_blank" class="view-button"><i class="fas fa-eye"></i> View</a>
+          </div>
+        </div>
+        <div class="certificate animate__animated animate__fadeInUp">
+          <h3>be10X Certified</h3>
+          <p>AI & ChatGPT Workshop, April 9, 2025.</p>
+          <div class="certificate-links">
+            <a href="https://drive.google.com/file/d/1v-OWUm4GwP2yKxxBnb2pAtmki6ekoORN/view?usp=drive_link" target="_blank" class="view-button"><i class="fas fa-eye"></i> View</a>
+          </div>
+        </div>
+
+
+
+        <!-- Resume -->
+        <div id="resume" class="tab-content">
+          <div class="project animate__animated animate__fadeInUp">
+            <h3>My Resume</h3>
+            <div class="resume-links">
+              <a href="s-resume.pdf" target="_blank" class="resume-btn"><i class="fas fa-file-pdf"></i> View Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+<!-- Embedded Systems Knowledge Section -->
+<section id="embedded-knowledge">
+  <h2>🔧 Embedded Systems & Firmware Fundamentals</h2>
+
+  <div class="knowledge-box">
+    <p>
+      I have a strong foundation in embedded systems and firmware development, with hands-on experience
+      gained through academic projects and practical implementations.
+    </p>
+
+    <p><strong>Core Embedded Systems Knowledge:</strong></p>
+    <ul>
+      <li>Basic microcontroller architecture and working principles</li>
+      <li>GPIO configuration, timers, and interrupt handling</li>
+      <li>Understanding of ADC, PWM, and digital I/O operations</li>
+      <li>Fundamentals of serial communication protocols: UART, I2C, SPI</li>
+    </ul>
+
+    <p><strong>Embedded Firmware Development:</strong></p>
+    <ul>
+      <li>Embedded C programming for microcontroller-based applications</li>
+      <li>Firmware development using Arduino IDE and ESP32 toolchains</li>
+      <li>Sensor interfacing and actuator control in real-time systems</li>
+      <li>Basic debugging and testing using Serial Monitor and logs</li>
+    </ul>
+
+    <p><strong>IoT & System Integration:</strong></p>
+    <ul>
+      <li>Design and implementation of basic IoT systems using ESP32</li>
+      <li>Cloud connectivity using Arduino IoT Cloud, Firebase, and Blynk</li>
+      <li>Real-time data monitoring and alert mechanisms</li>
+      <li>Awareness of OTA update concepts and secure connectivity basics</li>
+    </ul>
+
+    <p><strong>Hardware & Power Fundamentals:</strong></p>
+    <ul>
+      <li>Understanding of power supply design using buck converters</li>
+      <li>Battery-powered and solar-assisted embedded system concepts</li>
+      <li>Basic knowledge of hardware-software integration and testing</li>
+      <li>Exposure to real-world prototyping and system validation</li>
+    </ul>
+  </div>
+</section>
+
+
+
+  <!-- Workshops & Seminars Section -->
+  <section id="workshops" class="workshops">
+    <div class="container">
+      <h2 class="animate__animated animate__fadeIn">Workshops & Seminars Attended</h2>
+      <div class="workshop-grid">
+        <div class="workshop animate__animated animate__fadeInUp">
+          <h3>Workshop on Arduino</h3>
+          <p>I successfully attended a 3-day hands-on workshop on Arduino-based Embedded Systems, where I learned the
+            fundamentals of microcontroller programming, sensor interfacing, and real-time project development. The
+            workshop enhanced my practical skills in electronics, coding (using Arduino IDE), and IoT prototyping,
+            laying a strong foundation for future embedded system projects.</p>
+        </div>
+        <div class="workshop animate__animated animate__fadeInUp">
+          <h3>Seminar on AI in Engineering</h3>
+          <p>Participated in a seminar on the applications of AI in engineering, organized by IEEE, 2024.</p>
+        </div>
+        <div class="workshop animate__animated animate__fadeInUp">
+          <h3> AI Tools & ChatGPT Workshop – be10x</h3>
+          <p>Attending a certified workshop focused on leveraging AI tools like ChatGPT for productivity and smart
+            automation.
+            Key learnings include:
+
+            Creating professional presentations using AI in under 5 minutes
+
+            Analyzing and visualizing data with AI tools in 30 minutes
+
+            Coding and debugging using AI support in under 10 minutes
+
+            This workshop is enhancing my skills in integrating AI for faster and more efficient outcomes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer-socials animate__animated animate__fadeIn">
+    <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+  </footer>
+
+  <!-- External Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.1.0/progressbar.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+
+</html>
